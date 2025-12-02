@@ -28,7 +28,7 @@ export default function Header() {
       <div className="w-full flex items-center h-24 px-4 md:px-8">
         <div className="flex items-center flex-shrink-0">
           <Link href="/" className="flex items-center">
-            <Image src="/Logo.png" alt="Radiocabs Logo" width={200} height={75} className="h-32 w-auto" />
+            <Image src="/logo.png" alt="Radiocabs" width={200} height={75} className="h-32 w-auto" />
           </Link>
         </div>
         <nav className="flex items-center gap-4 md:gap-6 lg:gap-8 flex-1 max-w-4xl mx-4 md:mx-8 overflow-x-auto hide-scrollbar" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
